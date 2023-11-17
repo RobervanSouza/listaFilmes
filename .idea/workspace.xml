@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d61da63-9655-4065-a301-ee4566aff56d" name="Changes" comment="Criando Class">
+    <list default="true" id="6d61da63-9655-4065-a301-ee4566aff56d" name="Changes" comment="instanciando dados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Filme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,12 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700231112276</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="instanciando dados">
+      <option name="closed" value="true" />
+      <created>1700231704488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700231704488</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Criando Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando Class" />
+    <MESSAGE value="instanciando dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="instanciando dados" />
   </component>
 </project>

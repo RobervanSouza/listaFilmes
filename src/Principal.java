@@ -4,8 +4,15 @@ public class Principal {
         meuFilme.nome = "O poderoso chefão";
         meuFilme.anoLancamento = 1230;
         meuFilme.duracao= 130;
-        System.out.println("Meu filme: " + meuFilme.nome);
-        System.out.println("Meu filme: " + meuFilme.anoLancamento);
-        System.out.println("Meu filme: " + meuFilme.duracao);
+        meuFilme.avalia(8);
+        meuFilme.avalia(9);
+        meuFilme.avalia(5);
+        meuFilme.avalia(6);
+        meuFilme.avalia(7);
+        System.out.println(meuFilme.avaliacao);
+        System.out.println(meuFilme.totalAvaliacao);
+        System.out.println(meuFilme.mediaAvliacao() + " media avaliação");
+
+        meuFilme.exibeFichaTecnica();
     }
 }
