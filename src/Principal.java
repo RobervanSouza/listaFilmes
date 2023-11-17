@@ -1,4 +1,5 @@
 import br.com.alura.listaFilme.modelos.Filme;
+import br.com.alura.listaFilme.modelos.Serie;
 
 public class Principal {
     public static void main(String[] args) {
@@ -12,8 +13,18 @@ public class Principal {
         meuFilme.avalia(6);
         meuFilme.avalia(7);
 
-        System.out.println( " total de avaliação: "+ meuFilme.getTotalAvaliacao());
+        //System.out.println( " total de avaliação: "+ meuFilme.getTotalAvaliacao());
 
-        meuFilme.exibeFichaTecnica();
+       // meuFilme.exibeFichaTecnica();
+
+        Serie lost = new Serie();
+        lost.setNome("Lost");
+        lost.setTemporadas(10);
+        lost.setMinutosPorEpisodios(10);
+        lost.setEpisodiosPorTemporada(50);
+
+        System.out.println( " tempo da serie: " + lost.getDuracao());
+
+        lost.exibeFichaTecnica();
     }
 }
