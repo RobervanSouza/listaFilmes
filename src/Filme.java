@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Filme {
+public class Filme {
+  String nome;
+  int anoLancamento;
+  boolean plano;
+  double avaliacao;
+  int totalAvaliacao;
+  int duracao;
+
 }
