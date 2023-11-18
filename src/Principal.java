@@ -1,5 +1,6 @@
 import br.com.alura.listaFilme.modelos.Filme;
 import br.com.alura.listaFilme.modelos.Serie;
+import br.com.alura.listaFilmes.calculo.CalculadoraDeTempo;
 
 public class Principal {
     public static void main(String[] args) {
@@ -23,8 +24,18 @@ public class Principal {
         lost.setMinutosPorEpisodios(10);
         lost.setEpisodiosPorTemporada(50);
 
-        System.out.println( " tempo da serie: " + lost.getDuracao());
-
         lost.exibeFichaTecnica();
+        //System.out.println( " tempo da serie: " + lost.getDuracao());
+
+        Filme meuFilme3 = new Filme();
+        meuFilme3.setNome("O poderoso chefão");
+        meuFilme3.setAnoLancamento(1920);
+        meuFilme3.setDuracao(200);
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.incluirTitulos(meuFilme3);
+        calculadora.incluirTitulos(meuFilme);
+        calculadora.incluirTitulos(lost);
+        System.out.println(calculadora.getTempoTotal());
     }
 }
